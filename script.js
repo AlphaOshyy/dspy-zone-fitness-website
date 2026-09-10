@@ -2,6 +2,12 @@ const nav = document.querySelector('.nav');
 const menu = document.querySelector('.menu');
 const links = document.querySelectorAll('.nav-links a');
 
+// Load the polish layer separately so GitHub Pages can refresh it cleanly.
+const polish = document.createElement('link');
+polish.rel = 'stylesheet';
+polish.href = 'polish.css?v=2';
+document.head.appendChild(polish);
+
 window.addEventListener('scroll', () => {
   nav.classList.toggle('scrolled', window.scrollY > 30);
 });
