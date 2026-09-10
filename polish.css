@@ -1,0 +1,23 @@
+/* DSPY ZONE visual polish layer */
+:root{--lime:#d8ff32;--ink:#080808;--paper:#f3f3f0;--muted:#969691}
+html{background:var(--ink)}
+body{background:var(--ink);color:var(--paper)}
+section{position:relative}
+.hero-image,.program-bg,.gallery>div,.coach-img,.cta-bg{background-color:#161616;background-repeat:no-repeat;background-position:center;background-size:cover}
+.hero-overlay{background:linear-gradient(90deg,rgba(0,0,0,.94) 0%,rgba(0,0,0,.68) 48%,rgba(0,0,0,.32) 100%),linear-gradient(0deg,#080808 0%,transparent 35%)}
+.hero h1,.intro h2,.section-head h2,.locations h2,.faq h2,.travel h2,.cta h2{color:#f3f3f0;text-shadow:0 2px 20px rgba(0,0,0,.2)}
+.eyebrow,.section-tag,.program-num,.program-info a,.travel-grid a,.arrow-link,.gallery-note a{color:var(--lime)}
+.hero-copy,.intro p,.section-head>p,.gallery-note p{color:#b8b8b2}
+.nav{border-bottom-color:rgba(216,255,50,.12)}
+.nav.scrolled{box-shadow:0 10px 35px rgba(0,0,0,.3)}
+.btn,.nav-cta{background:var(--lime);color:var(--ink)}
+.program-card,.gallery>div,.coach-img{box-shadow:inset 0 0 0 1px rgba(255,255,255,.04)}
+.program-card:hover,.coach:hover{box-shadow:0 18px 50px rgba(0,0,0,.35)}
+.program-bg:after,.gallery>div:after,.coach-img:after{background:linear-gradient(0deg,rgba(0,0,0,.9),rgba(0,0,0,.08) 70%)}
+.manifesto{box-shadow:0 -25px 80px rgba(0,0,0,.2),0 25px 80px rgba(0,0,0,.2)}
+.travel{border-top:1px solid rgba(216,255,50,.1);border-bottom:1px solid rgba(216,255,50,.1)}
+.locations{background:#101010}
+.location-list h3,.coach-meta h3,.program-info h3,.travel-grid h3{color:#f3f3f0}
+.faq-list summary{color:#f3f3f0}
+.cta-bg:after{background:linear-gradient(90deg,rgba(0,0,0,.82),rgba(0,0,0,.55))}
+@media(max-width:800px){.hero{min-height:760px}.hero h1{line-height:.82}.section-pad{padding-top:78px;padding-bottom:78px}.program-card{height:430px}.coach-img{height:420px}.proof{position:relative}.proof-card strong{letter-spacing:-1px}}
